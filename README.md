@@ -1,26 +1,46 @@
 # [Nazwa systemu]
 
 > Projekt zespołowy systemu informatycznego, cz. 1 (dokumentacja), semestr zimowy 2026/27, studia niestacjonarne.
-> Temat nr **[XX]**: [tytuł tematu z listy]
+> Temat nr **[14]**: [Dziennik elektroniczny (uproszczony) ]
 
 ## O systemie
 
-[2–4 zdania: jaki problem rozwiązuje system, dla kogo jest i jaka jest jego główna wartość.]
+Dziennik elektroniczny zastępuje tradycyjną, papierową dokumentację przebiegu nauczania i rozwiązuje szereg problemów komunikacyjnych, organizacyjnych oraz logistycznych, z którymi codziennie mierzą się szkoły, nauczyciele, rodzice i uczniowie: 
+- natychmiastowy dostęp do ocen, uwag, frekwencji i planu lekcji dla wszystkich zainteresowanych stron.
+- bezpośredni, całodobowy komunikator zastępujący nieodebrane telefony i inne niedogodne formy komunikacji między kadrą pedagogiczną a rodzicami.
+- rozwiązanie problemu chaosu organizacyjnego i konfliktów poprzez blokowanie możliwości wpisania zbyt wielu sprawdzianów w tygodniu oraz likwidacja kolejek nauczycieli po fizyczny dziennik w pokoju nauczycielskim.
+
+Dziennik elektroniczny jest dostępny zarówno poprzez komputer stacjonarny, jak też przez urządzenia mobilne.
 
 ## Zespół
 
 | Osoba | Login GitHub/GitLab | Rola główna | Role dodatkowe |
 |---|---|---|---|
-| Imię Nazwisko | @login | Kierownik projektu | |
-| Imię Nazwisko | @login | Analityk wymagań | |
-| Imię Nazwisko | @login | Architekt / projektant BD | |
-| Imię Nazwisko | @login | Projektant UX/UI | |
-| Imię Nazwisko | @login | QA / wdrożenie | |
+|Kacper Pawlak | @kpawlakWS | Kierownik projektu | |
+| Kacper Pawlak | @kpawlakWS | Analityk wymagań | |
+| Kacper Pawlak | @kpawlakWS| Architekt / projektant BD | |
+| Kacper Pawlak | @kpawlakWS | Projektant UX/UI | |
+| Kacper Pawlak | @kpawlakWS| QA / wdrożenie | |
 
 ### Macierz odpowiedzialności (RACI)
 
-[Wklejcie i uzupełnijcie tabelę RACI z pliku „role_w_zespole.md”.]
+R = wykonuje, A = odpowiada (tylko jedna osoba), C = konsultowany, I = informowany
 
+| Sekcja dokumentacji | PM | Analityk | Architekt | UX/UI | QA/wdrożenie |
+|---|---|---|---|---|---|
+| 00 Zarządzanie projektem | A | C | C | C | R |
+| 01 Wizja i zakres | A | R | C | C | I |
+| 02 Słownik | C | A | R | C | I |
+| 03 Wymagania | C | A | C | R | R |
+| 04 Procesy i UC | I | A | R | C | C |
+| 05 Architektura | C | C | A | I | R |
+| 06 Model danych | I | C | A | I | C |
+| 07 Interfejs | C | R | I | A | C |
+| 08 Bezpieczeństwo | C | C | A | C | R |
+| 09 Wdrożenie | I | I | C | I | A |
+| 10 Testy | C | R | C | C | A |
+| 11 Plan realizacji | A | C | R | R | R |
+| Macierz śledzenia | C | R | C | C | A |
 ## Dokumentacja
 
 | Nr | Dokument | Właściciel | Status |
@@ -45,7 +65,7 @@ Statusy: ⬜ nie rozpoczęto · 🟨 w trakcie · 🟩 gotowe do recenzji · ✅
 
 | Tag | Zawartość | Termin | Oddano |
 |---|---|---|---|
-| `m1` | repozytorium i tablica zadań, zespół i RACI, wizja i zakres, interesariusze, rejestr ryzyk, wstępny słownik, ćwiczenie git, pytania do wywiadu | | |
+| `m1` | repozytorium i tablica zadań, zespół i RACI, wizja i zakres, interesariusze, rejestr ryzyk, wstępny słownik, ćwiczenie git, pytania do wywiadu | 8.11.2026 | |
 | `m2` | słownik, wymagania WF/WNF z MoSCoW, reguły biznesowe, historyjki z kryteriami akceptacji, C4 kontekst, protokół wywiadu, aktualizacja zakresu | | |
 | `m3` | UC, procesy, model dziedziny, ERD, architektura, ADR, bezpieczeństwo | | |
 | `m4` | UI, wdrożenie, testy, plan realizacji, macierz śledzenia | | |
