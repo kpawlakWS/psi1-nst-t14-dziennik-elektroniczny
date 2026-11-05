@@ -1,4 +1,4 @@
-# [Nazwa systemu]
+# Dziennik elektroniczny (uproszczony)
 
 > Projekt zespołowy systemu informatycznego, cz. 1 (dokumentacja), semestr zimowy 2026/27, studia niestacjonarne.
 > Temat nr **[14]**: [Dziennik elektroniczny (uproszczony) ]
