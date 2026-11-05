@@ -11,7 +11,7 @@
 
 | Kamień | Termin oddania (tag) | Odpowiedzialny | Uwagi |
 |---|---|---|---|
-| M1 | | | |
+| M1 | 08.11.2026|Kacper Pawlak |brak |
 | M2 | | | |
 | M3 | | | |
 | M4 | | | |
